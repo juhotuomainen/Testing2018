@@ -44,8 +44,16 @@ namespace Testing2018
             level = pLevel;
 
         }
-
-
+// peruskonstruktori, basic constructor
+public Armour()
+{ 
+            name ="";
+            desc = "";
+            maxProt = 0;
+            curProt = 0;
+            slot = 0;
+            level = 0;
+}
         /*
          * Method for creating textural information about the condition of the eq.
          * Levels:
