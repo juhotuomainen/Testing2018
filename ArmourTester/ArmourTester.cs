@@ -9,7 +9,7 @@ namespace ArmourTester
         [TestMethod]
         public void TestLevel1()
         {
-Armour ar = new Armour("Jorma", "Kokkeli", 20, 2, 2);
+Armour ar  = new Armour("Jorma", "Kokkeli", 20, 2, 2);
 //creating variable lvl for level whose value is a call of the method getLevel() of the armour class.
 int lvl = ar.getLevel();
 if(lvl != 2)
