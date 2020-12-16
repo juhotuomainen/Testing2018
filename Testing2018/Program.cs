@@ -10,7 +10,7 @@ namespace Testing2018
     {
         static void Main(string[] args)
         {
-Armour ar =new Armour ();
+
             Armour ar =new Armour("Jorma", "Kokkeli", 20, 2, 2);
             Console.WriteLine(ar.getLevel());
         }
